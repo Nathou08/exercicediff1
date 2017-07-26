@@ -8,6 +8,11 @@
     </head>
     <body>
         <h1>Convertisseur</h1>
-        Conversion de <input onkeydown="converter()" id="saisie"/> € = <span id=""></span>$
+        Conversion de <input onkeyup="converter()" id="saisie"/> € = <input id="resultat"/>
+            <select onclick="converter()" id="selection">
+                <option id="dollar">$ 
+                <option id="livre">£ 
+                <option id="yen">¥
+            </select>
     </body>
 </html>
